@@ -9,7 +9,7 @@ const Topcard = (props) => {
     <div className='h-[13vh]  w-[100%] border-b border-gray-300'>
         <div className='flex h-full items-center justify-between '>
             <div className="capitalize text-[20px] text-gray-500">
-                <p>Profile</p>
+                <p>{props.type}</p>
             </div>
             <div className="relative inline-block text-left mt-5 ml-40 ">
                 <div>
@@ -24,21 +24,20 @@ const Topcard = (props) => {
                         <img className='rounded-full' src={props.user.profilepicture} width="50%"></img>
                         <p className='text-[16px] font-[400] text-gray-800'>{props.user.name}</p>
                         <p className='text-[14px] text-gray-400'> {props.user.email}</p>
-                        <p>jjfjffjj</p>
                         <div className='mx-5 border-t border-gray-300 mt-3'>
                             <Link to= "/profile/1" >
                             <div className='cursor-pointer flex gap-3 justify-center items-center border-b py-2 '>
-                                <img className='rounded-full w-[10%]' src='https://img.icons8.com/ios/50/000'></img>
+                                <img className='rounded-full w-[10%]' src='https://panorbit.in/wp-content/uploads/2019/hotlink-ok/1001.jpeg'></img>
                                 <div className='text-md text-gray-700 font-[400]'>
-                                    <p> {props.user.name}</p>
+                                    <p> Leanne Graham</p>
                                 </div>
                             </div>
                             </Link>
                             <Link to= "/profile/2" >
                             <div className='cursor-pointer flex gap-3 justify-center items-center border-b py-2 '>
-                                <img className='rounded-full w-[10%]' src='https://img.icons8.com/ios/50/000'></img>
+                                <img className='rounded-full w-[10%]' src='https://panorbit.in/wp-content/uploads/2019/hotlink-ok/1002.jpeg'></img>
                                 <div className='text-md text-gray-700 font-[400]'>
-                                    <p> {props.user.name}</p>
+                                    <p> Ervin Howell</p>
                                 </div>
                             </div>
                             </Link>

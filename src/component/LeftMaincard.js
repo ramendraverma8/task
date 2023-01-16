@@ -1,7 +1,6 @@
 import React from 'react'
 
 const LeftMaincard = (props) => {
-    console.log(props.user, "kjkjjjjjjjjjjjjjjj")
   return (
     <div className='border-r border-gray-300 h-full w-[40%]'>
                 <div className="flex flex-col  w-full items-center h-full justify-center">
